@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tic Tac Toe Game</h1>
+        <p class="subtitle">Play with a friend and see who wins!</p>
+    </header>
+    <div class="scoreboard">
+        <div class="score player-x">
+            <span>Player X</span>
+            <span id="scoreX">0</span>
+        </div>
+        <div class="score player-o">
+            <span>Player O</span>
+            <span id="scoreO">0</span>
+        </div>
+        <div class="score draws">
+            <span>Draws</span>
+            <span id="scoreDraw">0</span>
+        </div>
+    </div>
+    <div class="turn-indicator">
+        <span id="turnText">Player O's turn</span>
+    </div>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="btnNewGame">New Game</button>
+    </div>
+    <main>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="btnReset">Reset Game</button>
+    </main>
+    <footer>
+        <p>Made with ❤️ by Ajay Soni</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
