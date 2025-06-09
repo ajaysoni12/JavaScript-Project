@@ -10,6 +10,3 @@ I'm currently learning JavaScript and using this space to build and document var
 - Event handling examples
 - API integration demos
 - Fun mini-games and utilities
-
-## 📁 Project Structure:
-Each project has its own folder, typically structured as:
